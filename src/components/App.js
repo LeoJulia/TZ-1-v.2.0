@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route} from "react-router-dom";
+import { BrowserRouter as Router, Route} from 'react-router-dom';
 import HomePage from './HomePage';
 import LoginPage from './LoginPage';
 import NewsPage from './NewsPage';
@@ -14,7 +14,7 @@ class App extends Component {
         <div>
           <Header />
 
-          <Route exact path='/' component={HomePage}/>
+          <Route exact path='/' component={HomePage} />
           <Route path='/news' component={NewsPage} />
           <Route path='/profile' component={ProfilePage} />
           <Route path='/login' component={LoginPage} />
